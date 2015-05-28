@@ -1,0 +1,24 @@
+﻿Build started 06/01/2011 3:06:12 PM.
+     1>Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\typedef1\typedef1\typedef1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\typedef1.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt example.cpp
+         example.cpp
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(17): error C2065: 'fp' : undeclared identifier
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(17): error C2072: 'square' : initialization of a function
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(17): error C2143: syntax error : missing ';' before '('
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(17): error C2062: type 'double' unexpected
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(17): error C2059: syntax error : ')'
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(21): error C2065: 'fp' : undeclared identifier
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(23): error C3861: 'fp': identifier not found
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(27): error C2556: 'double square(double)' : overloaded function differs only by return type from 'int square(double)'
+                 c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(15) : see declaration of 'square'
+     1>c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(27): error C2371: 'square' : redefinition; different basic types
+                 c:\users\michael\documents\visual studio 2010\projects\typedef1\typedef1\example.cpp(15) : see declaration of 'square'
+     1>Done Building Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\typedef1\typedef1\typedef1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.52

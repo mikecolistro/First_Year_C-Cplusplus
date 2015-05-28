@@ -1,0 +1,25 @@
+﻿Build started 27/01/2011 2:54:29 PM.
+     1>Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment2Semester2\Assignment2Semester2\Assignment2Semester2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Assignment2Semester2.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment2Semester2\Debug\Assignment2Semester2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assignment2Semester2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment2Semester2\Debug\Assignment2Semester2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment2Semester2\Debug\Assignment2Semester2.lib" /MACHINE:X86 Debug\Assignment2Semester2.exe.embed.manifest.res
+         Debug\Question1.obj
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Assignment2Semester2.exe.embed.manifest" /manifest Debug\Assignment2Semester2.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Assignment2Semester2.vcxproj -> C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment2Semester2\Debug\Assignment2Semester2.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Assignment2Semester2.unsuccessfulbuild".
+         Touching "Debug\Assignment2Semester2.lastbuildstate".
+     1>Done Building Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment2Semester2\Assignment2Semester2\Assignment2Semester2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

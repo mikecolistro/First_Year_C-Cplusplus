@@ -1,0 +1,41 @@
+To use strcmp it takes two string parameters and compares them
+	strcmp(st1,st2)
+	ex) int x = strcmp("Hi", "Hello");
+	if a positive number is returned the first number has a higher ascii code
+	if a negative number is returned the second number has a higher ascii code
+	if a zero is return they both have the same ascii code
+	for the example above a positive number would have been return because the e has a lower ascii code
+
+int strcmp1(const char *cs, const char *ct){
+	char res;
+		while(1){
+			if((res = *cs - *ct++ != 0 || ! *cs++)
+				break;
+			}
+		if (res ==0)
+			 res = 0;
+		else if(res > 0) 
+			res = 1;
+		else 
+			res = -1;
+		}
+		
+
+	To use strncmp it takes two string parameters and a third parameter that specifies the number of characters to compare
+		strncmp(st1,st2,n)
+
+
+int strcmp1(const char *cs, const char *ct){
+	char res = 0;
+	int i = 0;
+		while(i++ < n){
+			if((res = *cs - *ct++ != 0 || ! *cs++)
+				break;
+			}
+		if (res ==0)
+			 res = 0;
+		else if(res > 0) 
+			res = 1;
+		else 
+			res = -1;
+		}

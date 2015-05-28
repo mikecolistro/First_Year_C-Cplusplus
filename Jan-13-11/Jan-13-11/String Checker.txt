@@ -1,0 +1,42 @@
+strchr checks a string to see if a character is lo
+
+
+cated in the string
+
+
+const char string1 = "This is a test";
+char character 1 = 'a';
+char character 2 = 'z';
+
+	if(strchr(string1,character1) != Null)
+		printf("The char %c was found in the string %s", character1, string1);
+
+
+
+------------------------------------------------------------------------------------
+Looking for 's' charactger in "this is a sample string"
+found at 4
+found at 7
+found at 11
+found at 18
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+	char str[] = "This is a sample string";
+	char *pch;
+
+	printf("Looking for 's' character in \'%s'\'...\n", str);
+	pch = strchr(str,'s');
+	
+	while(pch!= NULL){
+		printf("found at %d \n", pch - str + 1);
+		pch = strchr(pch + 1, 's');
+	}
+}
+
+--------------------------------------------------
+strrchr gets the remainding string that starts with the character so if the character you were looking for was the letter z in the string zebras,
+zebras would be returned

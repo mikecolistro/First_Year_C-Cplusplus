@@ -1,0 +1,48 @@
+﻿Build started 28/10/2010 12:09:41 PM.
+     1>Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment 3\Assignment 3\Assignment 3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Assignment 3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Question 4.cpp" Question1.cpp
+         Question1.cpp
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question1.cpp(22): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question1.cpp(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question1.cpp(25): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question1.cpp(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question1.cpp(46): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question1.cpp(47): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+         Question 4.cpp
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question 4.cpp(14): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question 4.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question 4.cpp(18): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question 4.cpp(21): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question 4.cpp(24): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question 4.cpp(27): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question 4.cpp(40): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+     1>c:\users\michael\documents\visual studio 2010\projects\assignment 3\assignment 3\question1.cpp(74): warning C4715: 'choice1' : not all control paths return a value
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment 3\Debug\Assignment 3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assignment 3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment 3\Debug\Assignment 3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment 3\Debug\Assignment 3.lib" /MACHINE:X86 "Debug\Assignment 3.exe.embed.manifest.res"
+         "Debug\Question 4.obj"
+         Debug\Question1.obj
+         Debug\Question2.obj
+         Debug\Question3.obj
+         Debug\test.obj
+     1>Question1.obj : error LNK2005: _main already defined in Question 4.obj
+     1>Question1.obj : error LNK2005: _main already defined in Question 4.obj
+     1>C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment 3\Debug\Assignment 3.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\Assignment 3\Assignment 3\Assignment 3.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.35

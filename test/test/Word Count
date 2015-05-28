@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<string.h>
+#include <time.h>
+#include <stdlib.h>
+int count(char string[]);
+
+int main(){
+	 srand (time(NULL));
+	 int cat, x1;
+
+	int i;
+	char string[1001];
+	for(cat = 0; cat < 1000; cat++)
+		x1 = rand() % 2;
+		if(x1 == 0){
+			string[cat] = 'q';
+		}
+		else if(x1 == 1){
+			string[cat] = ' ';
+		}
+	printf("String: \n");
+	//gets(string);
+
+	i = count(string);
+
+	printf("Words %d", i);
+	printf("The string is\n");
+	for(int j = 0; j < 1000; j++)
+		printf("%c", string[j]);
+	printf("\n");
+	return 0;
+
+}
+
+int count(char string[])
+{
+  int i, j=0, k=0, x;
+  x = strlen(string);
+  for(i = 0; i < x; i++){
+    if(string[i] == ' ')
+		k += 1;
+	else
+		j += 1;
+  }
+	return j; 
+}

@@ -1,0 +1,8 @@
+the syntacticaly correct way (in c) to declare and initialize, in a single step, a pointer to a prevoiusly declared cariable S, of type double ,is
+	A) double *p = &s; <--- correct answer
+	B) double&p = *s;
+	C) double *p = S;
+	D) double p = *S;
+	e) double *p = *s;
+	
+	
